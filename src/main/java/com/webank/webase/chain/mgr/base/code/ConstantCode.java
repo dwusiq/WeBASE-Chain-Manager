@@ -200,7 +200,6 @@ public class ConstantCode {
     public static final RetCode FILE_NOT_EXISTS = RetCode.mark(205272, "Image tar file not exits.");
     public static final RetCode CHECK_PORT_NOT_SUCCESS = RetCode.mark(205273, "port check not success.");
     public static final RetCode HOST_INIT_NOT_SUCCESS = RetCode.mark(205274, "host init not success");
-    public static final RetCode IN_FUNCPARAM_ERROR = RetCode.mark(205259, "contract funcParam is error");
     public static final RetCode ABI_PARSE_ERROR = RetCode.mark(205260, "abi parse error");
     public static final RetCode INVALID_ENCRYPT_TYPE = RetCode.mark(205261, "invalid encrypt type");
     public static final RetCode FUNCTION_NOT_EXISTS = RetCode.mark(205262, "function is not exists");
@@ -231,5 +230,7 @@ public class ConstantCode {
     public static final RetCode NOT_FOUND_GROUP_BY_AGENCY_AND_CHAIN = RetCode.mark(205287, "not found group by agency and chain");
     public static final RetCode NOT_FOUND_VALID_NODE = RetCode.mark(205288, "not found valid node");
     public static final RetCode NODE_ID_NOT_MATCH = RetCode.mark(205289, "node id not match");
+    public static final RetCode IN_FUNCPARAM_ERROR = RetCode.mark(205290, "contract funcParam is error");
+
 
 }

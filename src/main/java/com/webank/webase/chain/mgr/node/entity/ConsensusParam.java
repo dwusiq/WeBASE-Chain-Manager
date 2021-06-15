@@ -33,7 +33,7 @@ public class ConsensusParam {
     @ApiModelProperty(value = "当前群组编号", example = "1", required = true)
     @NotNull
     private Integer groupId;
-    //    @NotBlank
+    //    @NotBlank205259
     @ApiModelProperty(value = "指定请求的节点id", example = "53060c93c5c7bfdc2b35ffae766e5e9f0ca16340f8e4ed09421cbbdb86cc974d57eb6460d41c33a71634f033a898d92486dd5081e2db1672bd426fff6e4af5f8")
     private String reqNodeId;
     @NotBlank
